@@ -1,0 +1,25 @@
+{
+    "name": "mitajunior/app",
+    "description": "A quick raw non-framework application container that gets you to quickly build you php app",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^5.2",
+        "wixel/gump": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Knight Industries",
+            "email": "mitacliff@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=5.5.0"
+    },
+    "autoload": {
+      "psr-0": {
+        "System": "src/"
+      }
+    }
+}
